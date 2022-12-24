@@ -4,4 +4,4 @@ run npm install
 
 then "npm run dev"
 
-![](images\Facebook-clone.jpg)
+![](images/Facebook-clone.jpg)
