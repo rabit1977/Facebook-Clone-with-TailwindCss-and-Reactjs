@@ -6,7 +6,7 @@ import { MdGroups, MdOndemandVideo, MdRecentActors } from 'react-icons/md';
 
 export default function Sidebar() {
   return (
-    <div className='hover:border-r-8 border-[#7B7B7B]/60 lg:block col-span-1 hidden -mt-2 py-4'>
+    <div className='flex-1 hover:border-r-8 border-[#7B7B7B]/60 xl:block hidden -mt-2 py-4'>
       <ul>
         <li className='flex items-center font-semibold text-base text-slate-700 gap-4 mb-1 hover:bg-[#E4E6E9] p-3 rounded-l-lg'>
           <CgProfile size='1.4rem' color='#4969af' />

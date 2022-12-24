@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Main() {
   return (
-    <div className='relative bg-white h-72 rounded-lg shadow-sm col-span-5 max-w-[520px] m-auto my-4 sm:col-span-3'>
+    <div className='relative flex-2 bg-white h-72 rounded-lg shadow-sm  lg:max-w-[540px] max-w-[450px] m-auto my-4'>
       <div className='absolute bg-white rounded-full p-3 z-50 left-8 top-40 cursor-pointer hover:bg-[#F0F2F5]'>
         <svg
           xmlns='http://www.w3.org/2000/svg'

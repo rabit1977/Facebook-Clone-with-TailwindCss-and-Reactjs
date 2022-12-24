@@ -6,35 +6,35 @@ import { MdGroups, MdOndemandVideo, MdRecentActors } from 'react-icons/md';
 
 export default function SidebarRight() {
   return (
-    <div className='hidden sm:block sm:col-span-1 col-span-2 m-auto -mt-2 py-4'>
+    <div className='flex-1 hover:border-r-8 md:block border-[#7B7B7B]/60 hidden -mt-2 py-4'>
       <ul>
-        <li className='flex items-center  font-semibold text-sm text-slate-700 md:gap-4 gap-2 mb-1 hover:bg-[#E4E6E9] p-2'>
+        <li className='flex items-center font-semibold text-base text-slate-700 gap-4 mb-1 hover:bg-[#E4E6E9] p-3 rounded-l-lg'>
           <CgProfile size='1.4rem' color='#4969af' />
           <a href='#'>Andi Ebibi</a>
         </li>
-        <li className='flex items-center  font-semibold text-sm text-slate-700 md:gap-4 gap-2 mb-1 hover:bg-[#E4E6E9] p-2'>
+        <li className='flex items-center font-semibold text-base text-slate-700 gap-4 mb-1 hover:bg-[#E4E6E9] p-3 rounded-l-lg'>
           <FaUserFriends size='1.4rem' color='#4969af' />
           <a href='#'>Friends</a>
         </li>
-        <li className='flex items-center  font-semibold text-sm text-slate-700 md:gap-4 gap-2 mb-1 hover:bg-[#E4E6E9] p-2'>
+        <li className='flex items-center font-semibold text-base text-slate-700 gap-4 mb-1 hover:bg-[#E4E6E9] p-3 rounded-l-lg'>
           <MdRecentActors size='1.4rem' color='#4969af' />
           <a href='#'>Most Recent</a>
         </li>
-        <li className='flex items-center  font-semibold text-sm text-slate-700 md:gap-4 gap-2 mb-1 hover:bg-[#E4E6E9] p-2'>
+        <li className='flex items-center font-semibold text-base text-slate-700 gap-4 mb-1 hover:bg-[#E4E6E9] p-3 rounded-l-lg'>
           <MdGroups size='1.4rem' color='#4969af' />
           <a href='#'>Groups</a>
         </li>
-        <li className='flex items-center  font-semibold text-sm text-slate-700 md:gap-4 gap-2 mb-1 hover:bg-[#E4E6E9] p-2'>
+        <li className='flex items-center font-semibold text-base text-slate-700 gap-4 mb-1 hover:bg-[#E4E6E9] p-3 rounded-l-lg'>
           <MdOndemandVideo size='1.4rem' color='#4969af' />
           <a href='#'>Watch</a>
         </li>
-        <li className='flex items-center  font-semibold text-sm text-slate-700 md:gap-4 gap-2 mb-1 hover:bg-[#E4E6E9] p-2'>
+        <li className='flex items-center font-semibold text-base text-slate-700 gap-4 mb-1 hover:bg-[#E4E6E9] p-3 rounded-l-lg'>
           <BsStopwatch size='1.4rem' color='#4267b2' />
           <a href='#'>Memories</a>
         </li>
       </ul>
-      <div className='flex gap-1 p-2 font-semibold text-slate-700 text-sm items-center '>
-        <button className='flex items-center gap-2 mb-3'>
+      <div className='flex items-center font-semibold text-base text-slate-700 gap-4 mb-1 hover:bg-[#E4E6E9] p-3 rounded-l-lg'>
+        <button className='flex items-center gap-2 '>
           <div className='bg-slate-200 p-2 rounded-full hover:bg-slate-300/60'>
             <svg
               xmlns='http://www.w3.org/2000/svg'
