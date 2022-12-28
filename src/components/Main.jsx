@@ -1,10 +1,11 @@
 import React from 'react';
 import { CgProfile } from 'react-icons/cg';
+import FeelingActivity from './Icons';
 
 export default function Main() {
   return (
     <>
-      <div className='relative flex-1 bg-white h-72 rounded-lg md:max-w-xl lg:max-w-2xl sm:grow max-w-xl mx-auto my-4'>
+      <div className='relative flex-1 bg-white h-72 rounded-lg md:max-w-xl  sm:grow max-w-xl mx-auto my-4'>
         <div className='h-full shadow'>
           <div className='absolute bg-white rounded-full p-3 z-50 left-8 top-40 cursor-pointer hover:bg-[#F0F2F5]'>
             <svg
@@ -116,8 +117,8 @@ export default function Main() {
         </div>
         <div className='mt-4 bg-white rounded-xl p-4 border shadow'>
           <div className='flex flex-col divide-y'>
-            <div className='flex gap-4 justify-between'>
-              <CgProfile size='3.2rem' color='#000' />
+            <div className='flex gap-2 justify-between'>
+              <CgProfile size='2.6rem' color='#000' />
               <input
                 className='flex-1 bg-slate-50 rounded-full pl-2 border outline-none'
                 type='text'
@@ -125,8 +126,8 @@ export default function Main() {
               />
             </div>
             <div className='mt-3'>
-              <ul className='flex justify-around space-x-4 items-center mt-3'>
-                <li className='flex gap-2 hover:bg-slate-50 px-3 py-1 rounded-xl text-slate-600/90 font-semibold tracking-wide'>
+              <ul className='flex justify-around space-x-4 items-center mt-2'>
+                <li className='flex gap-2 hover:bg-slate-100 px-3 py-2 rounded-xl text-slate-600/90 font-semibold tracking-wide '>
                   <svg
                     xmlns='http://www.w3.org/2000/svg'
                     fill='none'
@@ -142,7 +143,7 @@ export default function Main() {
                   </svg>
                   Live video
                 </li>
-                <li className='flex gap-2 hover:bg-slate-50 px-3 py-1 rounded-xl text-slate-600/90 font-semibold tracking-wide'>
+                <li className='flex gap-2 hover:bg-slate-100 px-3 py-2 rounded-xl text-slate-600/90 font-semibold tracking-wide '>
                   <svg
                     xmlns='http://www.w3.org/2000/svg'
                     fill='none'
@@ -159,42 +160,8 @@ export default function Main() {
                   </svg>
                   Photo/video
                 </li>
-                <li className='flex gap-2 hover:bg-slate-50 px-3 py-1 rounded-xl text-slate-600/90 font-semibold tracking-wide'>
-                  <svg
-                    width='24'
-                    height='24'
-                    viewBox='0 0 140 140'
-                    fill='none'
-                    xmlns='http://www.w3.org/2000/svg'
-                  >
-                    <path
-                      d='M140 70C140 108.66 108.66 140 70 140C31.3401 140 0 108.66 0 70C0 31.3401 31.3401 0 70 0C108.66 0 140 31.3401 140 70Z'
-                      fill='white'
-                    />
-                    <path
-                      fill-rule='evenodd'
-                      clip-rule='evenodd'
-                      d='M70 136C106.451 136 136 106.451 136 70C136 33.5492 106.451 4 70 4C33.5492 4 4 33.5492 4 70C4 106.451 33.5492 136 70 136ZM70 140C108.66 140 140 108.66 140 70C140 31.3401 108.66 0 70 0C31.3401 0 0 31.3401 0 70C0 108.66 31.3401 140 70 140Z'
-                      fill='#777'
-                    />
-                    <path
-                      d='M46 59C46 63.4183 42.4183 67 38 67C33.5817 67 30 63.4183 30 59C30 54.5817 33.5817 51 38 51C42.4183 51 46 54.5817 46 59Z'
-                      fill='#777'
-                    />
-                    <path
-                      d='M112 59C112 63.4183 108.418 67 104 67C99.5817 67 96 63.4183 96 59C96 54.5817 99.5817 51 104 51C108.418 51 112 54.5817 112 59Z'
-                      fill='#777'
-
-                    />
-                    <path
-                      fill-rule='evenodd'
-                      clip-rule='evenodd'
-                      d='M30.0001 84C30 84.0241 30 84.0483 30 84.0724C30 100.024 48.3563 112.955 71 112.955C93.6437 112.955 112 100.024 112 84.0724C112 84.0483 112 84.0241 112 84H30.0001Z'
-                      fill='#777'
-
-                    />
-                    <path d='M48 94H93V98H48V94Z' fill='#FFFBFB' />
-                  </svg>
+                <li className='flex gap-2 hover:bg-slate-100 px-3 py-2 rounded-xl text-slate-600/90 font-semibold tracking-wide '>
+                  <FeelingActivity />
                   Feeling/activity
                 </li>
               </ul>
