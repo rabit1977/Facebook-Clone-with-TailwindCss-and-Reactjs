@@ -89,3 +89,110 @@ export default function FeelingActivity() {
     </div>
   );
 }
+
+export function MoreIcon() {
+  return (
+    <div>
+      <svg
+        width='14'
+        height='14'
+        viewBox='0 0 117 26'
+        fill='none'
+        xmlns='http://www.w3.org/2000/svg'
+      >
+        <g clip-path='url(#clip0_25_35)'>
+          <path
+            d='M13 26C20.1797 26 26 20.1797 26 13C26 5.8203 20.1797 0 13 0C5.8203 0 0 5.8203 0 13C0 20.1797 5.8203 26 13 26Z'
+            fill='#050505'
+          />
+          <path
+            d='M59 26C66.1797 26 72 20.1797 72 13C72 5.8203 66.1797 0 59 0C51.8203 0 46 5.8203 46 13C46 20.1797 51.8203 26 59 26Z'
+            fill='#050505'
+          />
+          <path
+            d='M104 26C111.18 26 117 20.1797 117 13C117 5.8203 111.18 0 104 0C96.8203 0 91 5.8203 91 13C91 20.1797 96.8203 26 104 26Z'
+            fill='#050505'
+          />
+        </g>
+        <defs>
+          <clipPath id='clip0_25_35'>
+            <rect width='117' height='26' fill='white' />
+          </clipPath>
+        </defs>
+      </svg>
+    </div>
+  );
+}
+
+export function ExporeIcon() {
+  return (
+    <>
+      <div>
+        <svg
+          width='14'
+          height='14'
+          viewBox='0 0 66 66'
+          fill='none'
+          xmlns='http://www.w3.org/2000/svg'
+        >
+          <g clip-path='url(#clip0_8_325)'>
+            <path
+              d='M33 64.7927C50.5586 64.7927 64.7927 50.5586 64.7927 33C64.7927 15.4414 50.5586 1.20731 33 1.20731C15.4414 1.20731 1.20734 15.4414 1.20734 33C1.20734 50.5586 15.4414 64.7927 33 64.7927Z'
+              fill='black'
+              stroke='black'
+              stroke-width='3'
+            />
+            <path
+              fill-rule='evenodd'
+              clip-rule='evenodd'
+              d='M36.6631 37.2704L55.7903 12.8239L28.6577 28.975L28.6288 28.945L28.5598 29.0332L28.4618 29.0915L28.4906 29.1215L9.36353 53.5679L36.4961 37.4169L36.525 37.4469L36.594 37.3587L36.692 37.3003L36.6631 37.2704Z'
+              fill='white'
+            />
+            <path
+              fill-rule='evenodd'
+              clip-rule='evenodd'
+              d='M34.756 34.8773L40.3026 26.8375L31.2762 31.1501L31.2353 31.1063L31.17 31.2008L31.0639 31.2516L31.1047 31.2954L25.5582 39.3352L34.5846 35.0227L34.6255 35.0665L34.6908 34.9719L34.797 34.9212L34.756 34.8773Z'
+              fill='black'
+            />
+          </g>
+          <defs>
+            <clipPath id='clip0_8_325'>
+              <rect width='66' height='66' fill='white' />
+            </clipPath>
+          </defs>
+        </svg>
+      </div>
+    </>
+  );
+}
+
+export function CloseIcon() {
+  return (
+    <div>
+      <svg
+        width='16'
+        height='16'
+        viewBox='0 0 56 55'
+        fill='none'
+        xmlns='http://www.w3.org/2000/svg'
+      >
+        <line
+          x1='3.47487'
+          y1='2.52513'
+          x2='52.9723'
+          y2='52.0226'
+          stroke='black'
+          stroke-width='7'
+        />
+        <line
+          y1='-3.5'
+          x2='70'
+          y2='-3.5'
+          transform='matrix(-0.707107 0.707107 0.707107 0.707107 54.4974 5)'
+          stroke='black'
+          stroke-width='7'
+        />
+      </svg>
+    </div>
+  );
+}

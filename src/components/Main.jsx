@@ -1,6 +1,6 @@
 import React from 'react';
 import { CgProfile } from 'react-icons/cg';
-import FeelingActivity from './Icons';
+import FeelingActivity, { CloseIcon, ExporeIcon, MoreIcon } from './Icons';
 
 export default function Main() {
   return (
@@ -166,6 +166,51 @@ export default function Main() {
                 </li>
               </ul>
             </div>
+          </div>
+        </div>
+        {/* post window */}
+        <div className='bg-white rounded-xl mt-4 p-4  shadow h-auto'>
+          <div className='h-16  flex items-center justify-between border-b'>
+            <div className='flex items-center gap-2 text-sm font-semibold text-slate-700'>
+              <div className=''>
+                <img src='src/assets/react.svg' alt='' />
+              </div>
+              <div className='flex flex-col justify-center'>
+                <div className='flex items-center gap-2'>
+                  <div className='name'>DigitAlb</div>
+                  <input
+                    type='radio'
+                    className='accent-blue-500'
+                    checked
+                  ></input>
+                </div>
+                <div className='flex items-center gap-2'>
+                  <div className='time'>8h {' . '}</div>
+                  <div className=''>
+                    <ExporeIcon />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className='close-wrapper'>
+              <div className='flex gap-4 items-center text-slate-700'>
+                <div className='hover:bg-slate-200 p-2 rounded-full '>
+                  <MoreIcon />
+                </div>
+                <div className='hover:bg-slate-200 p-2 rounded-full '>
+                  <CloseIcon />
+                </div>
+              </div>
+              <div className='closeicon'></div>
+            </div>
+          </div>
+          <div className='text-sm space-y-2'>
+            <p>Olta thyen rregullin! Del nga ruloja dhe hyn në shtëpi...</p>
+            <p>
+              Big Brother VIP, çdo të martë e të shtunë në Top Channel dhe 24/7
+              LIVE në DigitAlb Tokësor, Satelitor dhe OTT me dy kanale të
+              dedikuara, nr. 8 dhe 9.
+            </p>
           </div>
         </div>
       </div>

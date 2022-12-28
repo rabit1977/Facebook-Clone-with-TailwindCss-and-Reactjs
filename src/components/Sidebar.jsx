@@ -7,7 +7,7 @@ import { MdGroups, MdOndemandVideo, MdRecentActors } from 'react-icons/md';
 export default function Sidebar() {
   return (
     <>
-      <div className='hover:border-r-8 border-r-8 border-r-transparent  hover:border-[#7B7B7B]/60 xl:block hidden w-[300px]'>
+      <div className='hover:border-r-8 border-r-8 border-r-transparent  hover:border-[#7B7B7B]/60 xl:block hidden w-[300px] cursor-pointer'>
         <div className='flex flex-col'>
           <div className='-mt-2 py-4'>
             <ul>
@@ -63,13 +63,13 @@ export default function Sidebar() {
             <ul>
               <li className='group flex items-center justify-between font-semibold text-base text-slate-700 gap-4 rounded-l-lg'>
                 {' '}
-                <div className='p-2'>
-                  <a href='#' className='text-slate-500 font-semibold text-lg'>
+                <div className='p-2 cursor'>
+                  <a href='#' className='text-slate-500 font-semibold text-lg cursor-text'>
                     Your shortcuts
                   </a>
                 </div>
-                <div className='hidden group-hover:block'>
-                  <button className=' flex-none text-blue-600 font-normal text-xm hover:bg-[#E4E6E9] px-3 py-2 rounded-l-lg '>
+                <div className='hidden group-hover:block cursor-none'>
+                  <button className='text-blue-600 font-normal text-xm hover:bg-[#E4E6E9] px-3 py-2 rounded-l-lg '>
                     Edit
                   </button>
                 </div>
@@ -95,8 +95,9 @@ export default function Sidebar() {
                 <a href='#'>Place to visit</a>
               </li>
             </ul>
-          </div>{' '}
+          </div>{' '} 
         </div>
+       
       </div>
     </>
   );
