@@ -115,9 +115,9 @@ export default function Main() {
             </div>
           </div>
         </div>
-        <div className='mt-4 bg-white rounded-xl p-4 border shadow'>
+        <div className='mt-4 text-xs sm:text-sm md:text-base bg-white rounded-xl p-4 border shadow'>
           <div className='flex flex-col divide-y'>
-            <div className='flex gap-2 justify-between'>
+            <div className='flex gap-1 justify-between'>
               <CgProfile size='2.6rem' color='#000' />
               <input
                 className='flex-1 bg-slate-50 rounded-full pl-2 border outline-none'
@@ -126,8 +126,8 @@ export default function Main() {
               />
             </div>
             <div className='mt-3'>
-              <ul className='flex justify-around space-x-4 items-center mt-2'>
-                <li className='flex gap-2 hover:bg-slate-100 px-3 py-2 rounded-xl text-slate-600/90 font-semibold tracking-wide '>
+              <ul className='flex justify-between sm:justify-around mt-2'>
+                <li className='flex gap-1 sm:gap-2 hover:bg-slate-100 px-1 sm:px-3 py-1 sm:py-2 rounded-xl text-slate-600/90 font-semibold tracking-wide items-center'>
                   <svg
                     xmlns='http://www.w3.org/2000/svg'
                     fill='none'
@@ -143,7 +143,7 @@ export default function Main() {
                   </svg>
                   Live video
                 </li>
-                <li className='flex gap-2 hover:bg-slate-100 px-3 py-2 rounded-xl text-slate-600/90 font-semibold tracking-wide '>
+                <li className='flex gap-1 sm:gap-2 hover:bg-slate-100 px-1 sm:px-3 py-1 sm:py-2 rounded-xl text-slate-600/90 font-semibold tracking-wide items-center'>
                   <svg
                     xmlns='http://www.w3.org/2000/svg'
                     fill='none'
@@ -160,7 +160,7 @@ export default function Main() {
                   </svg>
                   Photo/video
                 </li>
-                <li className='flex gap-2 hover:bg-slate-100 px-3 py-2 rounded-xl text-slate-600/90 font-semibold tracking-wide '>
+                <li className='flex gap-1 sm:gap-2 hover:bg-slate-100 px-1 sm:px-3 py-1 sm:py-2 rounded-xl text-slate-600/90 font-semibold tracking-wide items-center'>
                   <FeelingActivity />
                   Feeling/activity
                 </li>

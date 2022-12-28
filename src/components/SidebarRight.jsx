@@ -8,17 +8,29 @@ export default function SidebarRight() {
   return (
     <div className='flex-1 md:max-w-xs hover:border-r-8 border-r-8 border-r-transparent shrink lg:block hover:border-[#7B7B7B]/60 hidden  py-4'>
       <ul>
-        <li className='flex items-center font-semibold text-base text-slate-700 gap-4 mb-1 hover:bg-[#E4E6E9] p-3 rounded-l-lg'>
-          <CgProfile size='1.4rem' color='#4969af' />
-          <a href='#'>Andi Ebibi</a>
+        <li className='flex items-center font-semibold text-base text-slate-700 gap-4 mb-1  p-3 rounded-l-lg'>
+          <a className='tracking-wide' href='#'>
+            Sponsored
+          </a>
         </li>
-        <li className='flex items-center font-semibold text-base text-slate-700 gap-4 mb-1 hover:bg-[#E4E6E9] p-3 rounded-l-lg'>
-          <FaUserFriends size='1.4rem' color='#4969af' />
-          <a href='#'>Friends</a>
+        <hr className=' border-black/20' />
+        <li className='flex items-center font-semibold text-base text-slate-700 gap-4 mb-1  p-3 rounded-l-lg justify-between'>
+          <a href='#'>Your Pages and profiles</a>
+          <div className='tracking-wider cursor-pointer'>...</div>
         </li>
-        <li className='flex items-center font-semibold text-base text-slate-700 gap-4 mb-1 hover:bg-[#E4E6E9] p-3 rounded-l-lg'>
-          <MdRecentActors size='1.4rem' color='#4969af' />
-          <a href='#'>Most Recent</a>
+        <li className='flex flex-col items-left font-semibold text-base text-slate-700 gap-4 mb-1 hover:bg-[#E4E6E9] rounded-l-lg'>
+          <div className='flex gap-4'>
+            <CgProfile size='1.4rem' color='#4969af' />
+            <a href='#'>My business page</a>
+          </div>
+          <div className=' pl-4 indent-4 text-xs  font-normal space-y-2'>
+            <li className='flex items-center'>
+              <CgProfile size='1.4rem' color='#4969af' /> Switch into Page
+            </li>
+            <li className='flex items-center'>
+              <CgProfile size='1.4rem' color='#4969af' /> Create promotion
+            </li>
+          </div>
         </li>
         <li className='flex items-center font-semibold text-base text-slate-700 gap-4 mb-1 hover:bg-[#E4E6E9] p-3 rounded-l-lg'>
           <MdGroups size='1.4rem' color='#4969af' />
