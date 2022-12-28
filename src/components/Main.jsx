@@ -169,7 +169,7 @@ export default function Main() {
           </div>
         </div>
         {/* post window */}
-        <div className='bg-white rounded-xl mt-4 p-4  shadow h-auto'>
+        <div className='bg-white rounded-xl mt-4 px-4  shadow h-auto'>
           <div className='h-16  flex items-center justify-between border-b'>
             <div className='flex items-center gap-2 text-sm font-semibold text-slate-700'>
               <div className=''>
